@@ -12,9 +12,9 @@ app.use(express.json());
 // 创建数据库连接
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root', // 请根据你的MySQL用户名更改
-    password: 'admin123', // 请根据你的MySQL密码更改
-    database: 'contact_manager' // 请根据你的数据库名称更改
+    user: 'root', 
+    password: 'admin123',
+    database: 'contact_manager'
 });
 
 // 连接到数据库
